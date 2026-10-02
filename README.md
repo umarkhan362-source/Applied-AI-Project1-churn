@@ -20,9 +20,10 @@ pip install pandas numpy matplotlib seaborn# Project_1
 ## Week 2: Building ML Models
 
 * **Baseline (always "stay"):** accuracy **73.5%**
-* **Best model:** **Logistic Regression**, AUC **0.842**, recall **56.7%** at threshold **0.5**
+* **Best model:** **Logistic Regression**, AUC **0.842**, recall **56.7%** at threshold **0.50**
 * **Top churn drivers (permutation importance):** **Tenure**, **TotalCharges**, **Contract_Two year**
-* **Threshold chosen:** **0.15**, because **the business cost of missing a churner is higher than the cost of making an unnecessary retention offer**
+* **Threshold chosen:** **0.15**, because missing a churner costs **PKR 6,000**, while an unnecessary retention offer costs **PKR 1,000**. The cost-based theoretical threshold is about **0.14**, and the empirical minimum-cost threshold from the notebook is **0.15**.
 * **Engineered features:** **n_services, is_new, charge_per_mo, price_jump**; effect on AUC: **0.8422 → 0.8420**
-* **Biggest lesson:** **Model performance should be evaluated using more than accuracy; recall, AUC, threshold selection, class imbalance, and business costs are also important.**
+* **Biggest lesson:** **Accuracy alone is not enough for churn prediction; recall, AUC, class imbalance, threshold selection, and business costs must also be considered.**
+
 
