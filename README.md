@@ -19,9 +19,10 @@ pip install pandas numpy matplotlib seaborn# Project_1
 
 ## Week 2: Building ML Models
 
-- **Baseline (always "stay"):** accuracy **73.5%**
-- **Best model:** **Logistic Regression / Random Forest**, AUC **0.842**, recall **56.7%** at threshold **0.5**
-- **Top churn drivers (permutation importance):** **Tenure**, **TotalCharges**, **Contract_Two year**
-- **Threshold chosen:** **0.15**, because the business cost of missing a churner is higher than the cost of making an unnecessary retention offer.
-- **Engineered features:** **n_services, is_new, charge_per_mo, price_jump**; effect on AUC: **0.8422 → 0.8420**
-- **Biggest lesson:** **Model performance should be evaluated using more than accuracy; recall, AUC, threshold selection, class imbalance, and business costs are also important.**
+* **Baseline (always "stay"):** accuracy **73.5%**
+* **Best model:** **Logistic Regression**, AUC **0.842**, recall **56.7%** at threshold **0.5**
+* **Top churn drivers (permutation importance):** **Tenure**, **TotalCharges**, **Contract_Two year**
+* **Threshold chosen:** **0.15**, because **the business cost of missing a churner is higher than the cost of making an unnecessary retention offer**
+* **Engineered features:** **n_services, is_new, charge_per_mo, price_jump**; effect on AUC: **0.8422 → 0.8420**
+* **Biggest lesson:** **Model performance should be evaluated using more than accuracy; recall, AUC, threshold selection, class imbalance, and business costs are also important.**
+
