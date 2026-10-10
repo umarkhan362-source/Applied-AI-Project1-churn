@@ -201,7 +201,7 @@ A Streamlit app that scores telecom customers for churn risk and tells a retenti
 ### Single customer: score, risk band, what-if and explanation
 The sidebar describes one customer. The app shows the churn probability, the risk band, the recommended action, and a what-if chart showing how the risk changes under alternative contract, payment or support options.
 
-![Single customer view](images/single_customer.png)
+![Single customer view](single_customer.png)
 
 ### Batch scoring: upload a customer file
 Uploading `WA_Fn-UseC_-Churn.csv` scores all 7,043 customers: 2,692 (38%) are above the contact threshold and the average risk is 27%. The table is sorted by churn probability so the team can start at the top.
