@@ -170,7 +170,7 @@ One split moved accuracy by 4.8 points, so XGBoost's 0.004 AUC edge over tuned l
 
 A Streamlit app that scores telecom customers for churn risk and tells a retention team who to call first.
 
-**Live app:** [PASTE YOUR STREAMLIT URL HERE](https://applied-ai-project1-churn-rxivmpapwrnbr4uc2odfme.streamlit.app/)
+**Live app:** [Streamlit App](https://applied-ai-project1-churn-rxivmpapwrnbr4uc2odfme.streamlit.app/)
 
 ---
 
@@ -234,7 +234,7 @@ The app opens at http://localhost:8501. Required files in the repo: `app.py`, `c
 
 ## Notebooks
 
-- [Week 1 notebook](PASTE-LINK)
-- [Week 2 notebook](PASTE-LINK)
-- [Week 3 notebook: model optimization](PASTE-LINK)
-- [Lab 4 notebook: packaging and parity test](PASTE-LINK)
+- [Week 1 notebook](https://github.com/umarkhan362-source/Applied-AI-Project1-churn/blob/main/week1-eda-umar-khan.ipynb)
+- [Week 2 notebook](https://github.com/umarkhan362-source/Applied-AI-Project1-churn/blob/main/week2-ml-models-umar-khan.ipynb)
+- [Week 3 notebook: model optimization](https://github.com/umarkhan362-source/Applied-AI-Project1-churn/blob/main/week-3-model-optimization.ipynb)
+- [Lab 4 notebook: packaging and parity test](https://github.com/umarkhan362-source/Applied-AI-Project1-churn/blob/main/week-3-model-optimization-lab4.ipynb)
