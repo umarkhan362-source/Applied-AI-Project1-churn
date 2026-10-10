@@ -206,7 +206,7 @@ The sidebar describes one customer. The app shows the churn probability, the ris
 ### Batch scoring: upload a customer file
 Uploading `WA_Fn-UseC_-Churn.csv` scores all 7,043 customers: 2,692 (38%) are above the contact threshold and the average risk is 27%. The table is sorted by churn probability so the team can start at the top.
 
-![Batch scoring view](images/batch_scoring.png)
+![Batch scoring view](batch_scoring.png)
 
 ---
 
