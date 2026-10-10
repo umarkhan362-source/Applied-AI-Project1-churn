@@ -166,11 +166,11 @@ $$\text{recall}=\frac{198}{374}=0.529,\quad \text{precision}=\frac{198}{299}=0.6
 
 One split moved accuracy by 4.8 points, so XGBoost's 0.004 AUC edge over tuned logistic regression (0.3 std) is noise, not a win. Report every number as mean ± std and touch the test set once.
 
-# Churn Risk Advisor v1.0
+# 📉 Customer Churn Risk Advisor
 
 A Streamlit app that scores telecom customers for churn risk and tells a retention team who to call first.
 
-**Live app:** [PASTE YOUR STREAMLIT URL HERE](https://your-app-name.streamlit.app)
+**Live app:** [PASTE YOUR STREAMLIT URL HERE](https://applied-ai-project1-churn-rxivmpapwrnbr4uc2odfme.streamlit.app/)
 
 ---
 
