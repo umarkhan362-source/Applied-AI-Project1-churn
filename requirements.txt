@@ -1,6 +1,6 @@
-streamlit>=1.32
-scikit-learn==1.6.1
-xgboost==3.4.1
+streamlit
+scikit-learn
+xgboost
 pandas
 numpy
 plotly
