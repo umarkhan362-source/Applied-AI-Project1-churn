@@ -5,3 +5,6 @@ plotly
 scikit-learn
 xgboost
 joblib
+streamlit>=1.32
+scikit-learn==1.6.1
+xgboost==3.4.1
