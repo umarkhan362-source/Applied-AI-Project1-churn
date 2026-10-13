@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+altair
+joblib
+scikit-learn
+xgboost
+pyarrow<25
